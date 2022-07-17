@@ -1,4 +1,75 @@
-#intro-text{
-    padding-top: 25em;
-    font-size: large;
+#header-link li :active{
+    color: aqua;
 }
+
+body{
+    background-color: #c3e7f731;
+    margin: 0;
+
+}
+
+#top-banner h1{
+ font-size: 7vw;
+}
+
+#top-banner p{
+    font-size: 7vw;
+}
+
+#intro-text{
+    padding-top: 23em;
+}
+
+.web-color {
+    animation-name: web;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+.card{
+    margin-right: 10px;
+    margin-bottom: 20px; 
+    box-shadow: 2px 2px 6px lightgrey;
+}
+
+@keyframes web{
+    from { color: white;}
+    to { color: #f9b904}
+}
+
+#contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 50px;
+}
+
+.github{
+    color: #23272a;
+}
+
+.codepen{
+   color: #23272a;
+}
+
+#contact a{
+    background-color: white;
+    height: 300px;
+    width: px;
+    margin: 0 15px;
+}
+
+#footer a{
+    color: white;
+}
+
+#footer a :active{
+    color: aqua;
+}
+
+@media screen and(max-width: 600px) {
+    div#intro-text{
+        font-size: 50px;
+    }
+}
+ 
+    

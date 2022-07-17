@@ -5,18 +5,20 @@
   <meta name="viewport" content="width-device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/8c1df5f709.js" crossorigin="anonymous"></script>
   <link href="portfolio.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
 </head>
 
 <body>
-  
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top ">
-    <div class="container-fluid justify-content-end">
-      <ul class="navbar-nav">
+
+ <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top "> 
+    <div class="container-fluid justify-content-center ">
+      <ul class="navbar-nav" id="header-link">
         <li class="nav-item">
           <a class="nav-link" href="#top">Top</a>
       </li>
-        <li class="nav-item">
+        <li class="nav-item"> 
           <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
           <li class="nav-item">
@@ -27,68 +29,70 @@
           </li>
       </ul>
     </div>
-   </nav>
+    </nav>
+   
+  
 
-  <div class="p-3" style="width:100%; height: 100vh; background-color: #1c2f2f;" id="top">
-  <div class="container text-center text-white" id="intro-text">
-    <h1>My name is Luan</h1>
-    <p>Do you need a Web Developer?</p>
-  </div>
+  <div class="p-3 bg-dark container-fluid" style="width:100%; height: 100vh;" id="top-banner">
+   <div class="container-fluid text-center text-white" id="intro-text">
+     <h1>My name is Luan</h1>
+     <p>I am a <span class="web-color"> Web</span> Developer</p>
+   </div> 
   </div>
 
    <div class="container-fluid row justify-content-center mt-5" id="portfolio">
     <div class="card" style="width: 400px;">
-      <img class="card-img-bottom" src="" alt="Card Image">
+      <img class="card-img-bottom"  src="https://images.squarespace-cdn.com/content/v1/59231d7f197aea6aa1c6bf20/1498803102793-3A7PPQ05PU6VXT9QGD74/Morgan-Logo-gold2.png" alt="Card Image" style="height: 250px;width: 300px;">
+       <div class="card-body">
+        <h4 class="card-title">Marcana Guitars</h4>
+        <p class="card-text">Example of a project landing page</p>
+        <a href="https://codepen.io/ltaute/full/poazgXQ" target="_blank" class="btn btn-primary">Open Project</a>
+       </div>
+    </div>
+
+    <div class="card" style="width: 400px;">
+      <img class="card-img-bottom" src="https://www.billboard.com/wp-content/uploads/media/Leonard-Cohen-recording-studio-1980s-bw-billboard-1548.jpg" alt="Card Image">
       <div class="card-body">
-        <h4 class="card-title">Heading</h4>
-        <p class="card-text">Details</p>
-        <a href="#" class="btn btn-primary">Go to</a>
+        <h4 class="card-title">Leonard Cohen</h4>
+        <p class="card-text">Example of a project Tribute page</p>
+        <a href="https://codepen.io/ltaute/full/jOYdyLJ" target="_blank" class="btn btn-primary">Open Project</a>
       </div>
     </div>
 
     <div class="card" style="width: 400px;">
-      <img class="card-img-bottom" src="" alt="Card Image">
+      <img class="card-img-bottom" src="./img/list.png" alt="Card Image" style="height: 250px;">
       <div class="card-body">
-        <h4 class="card-title">Heading</h4>
-        <p class="card-text">Details</p>
-        <a href="#" class="btn btn-primary">Go to</a>
+        <h4 class="card-title">Sortable List</h4>
+        <p class="card-text">Sortable list with a drag and drop function</p>
+        <a href="https://codepen.io/ltaute/full/QWmGgQQ" target="_blank" class="btn btn-primary">Open Project</a>
       </div>
     </div>
 
     <div class="card" style="width: 400px;">
-      <img class="card-img-bottom" src="" alt="Card Image">
+      <img class="card-img-bottom" src="./img/git.png" alt="Card Image" style="height: 200px;width: 200px;">
       <div class="card-body">
-        <h4 class="card-title">Heading</h4>
-        <p class="card-text">Details</p>
-        <a href="#" class="btn btn-primary">Go to</a>
-      </div>
-    </div>
-
-    <div class="card" style="width: 400px;">
-      <img class="card-img-bottom" src="" alt="Card Image">
-      <div class="card-body">
-        <h4 class="card-title">Heading</h4>
-        <p class="card-text">Details</p>
-        <a href="#" class="btn btn-primary">Go to</a>
+        <h4 class="card-title">Neumorphism effect on social media buttons</h4>
+        <p class="card-text">CSS animation and effects on Social media buttons</p>
+        <a href="https://codepen.io/ltaute/full/YzapByv" target="_blank" class="btn btn-primary">Open Project</a>
       </div>
     </div>
 
    </div> 
   
    <div class="container-fluid mt-3 pt-5">
-     <h1 class="container-fluid text-end">Luan Ivan Taute Resume() {</h1>
+     <h1 class="container-fluid text-center">Luan Ivan Taute Resume() </h1>
      
-     <p class="container-fluid mt-3 text-end">
+     <p class="container-fluid mt-3 text-center">
       I've enjoyed a 5-year career as a scenic artist. Painting theatre sets and building props for a variety of film, TV, and theatre shows. <br>
       Always had an interest in how a business works, marketing, management, client relationships, logistics, finances, and technology.<br><br>
 
       I did a career change from the arts industry to construction to explore more interests and gain more experience in Project management.<br><br>
 
-      I have a big interest in Blockchain Development and Software Development and would love to gain experience and follow a career path in the Tech industry.};
+      I have a big interest in Blockchain Development and Software Development and would love to gain experience and follow a career path in the Tech industry.
      </p>
-   </div>
+   </div> <br>
 
-   <div class="container-fluid mt-5" id="resume">
+   <div class="container mt-5" id="resume">
     <div class="row">
       <div class="card col-sm-4 p-3 text-dark">
         <h1 class="container text-center">Contact details</h1>
@@ -147,15 +151,14 @@
         </ul>
       </div>
 
-      <div class="card col-sm-8 p-3 text-dark">
+      <div class="card col-sm-8 p-3 text-dark" style="width: auto;">
         <h1 class="container text-center">Career Progression</h1>
         <h1>Alsnest Developments</h1>
         <h2>Project Manager, June 2020 - Present</h2>
         <ul class="list">
           <li>Preparing property for a new Development</li>
-          <li>First Aid</li>
-          <li>Commercial building and property maintenance</li>
           <li>Managing new construction projects</li>
+          <li>Commercial building and property maintenance</li>
           <li>Projects quality control</li>
           <li>Evaluating projects performance</li> 
         </ul>
@@ -163,7 +166,7 @@
         <h1>The Proper Prop Shop</h1>
         <h2>Director, Co-founder, January 2018 - November 2021</h2>
         <ul class="list">
-          <li>Started the company from scratch</li>
+          <li>Business Start-up administration</li>
           <li>Sourcing of new Props and designs</li>
           <li>Grew the inventory from 24 pieces to well over 600</li>
           <li>Developed marketing plan, product catalog, and rental system</li>
@@ -186,7 +189,6 @@
           <li>Scenic and Props Artist</li>
           <li>Assistant project manager pre and post production</li>
           <li>Props Master on a variety of South African theatre shows</li>
-          <li>Developed marketing plan, product catalog, and rental system</li>
           <li>Workshop manager</li>
         </ul>
 
@@ -196,7 +198,7 @@
           <li>Assisting Lecturer with administration</li>
           <li>Assisting students during projects</li>
           <li>Stock take and inventory management</li>
-          <li>Keeping storeroom and workshop clean</li> 
+          <li>Workshop assistant manager</li> 
         </ul>
         <hr>
 
@@ -215,6 +217,19 @@
       </div>
     </div>
    </div>
+
+   <div class="container justify-content-center text-center" id="contact">
+    <h1>Follow me</h1>
+    <a href="https://linkedin.com/in/ltaute" target="_blank" class="linkedin"><li class="fa-brands fa-linkedin"></li></a>
+    <a href="https://github.com/LTaute" target="_blank" class="github"><li class="fa-brands fa-github"></li></a>
+    <a href="https://codepen.io/ltaute" target="_blank" class="codepen"><li class="fa-brands fa-codepen"></li></a>  
+   </div>
+
+   <footer id="footer">
+    <div class="footer text-center text-white bg-dark" >
+        <a class="nav-link" href="#top">Top</a>
+    </div>
+   </footer>
 
 
 </body>
