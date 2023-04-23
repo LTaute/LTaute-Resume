@@ -44,6 +44,14 @@ body{
     box-shadow: 2px 2px 6px lightgrey;
 }
 
+#port-card .img{
+    align-content:center;
+}
+
+#aboutme {
+    max-height: 500px;
+}
+
 @keyframes web{
     from { color: white;}
     to { color: #f9b904}

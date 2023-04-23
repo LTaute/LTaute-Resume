@@ -5,7 +5,7 @@
   <meta name="viewport" content="width-device-width, initial-scale=1">
   <title>Luan Taute Resume</title>
   <link rel="icon" type="image/x-icon" href="./img/favicon_io/favicon-32x32.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://kit.fontawesome.com/8c1df5f709.js" crossorigin="anonymous"></script>
   <link href="portfolio.css" rel="stylesheet">
@@ -34,7 +34,7 @@
     </nav>
    
   
-
+<!--Top Banner-->
   <div class="p-3 bg-dark container-fluid" style="width:100%; height: 100vh;" id="top-banner">
    <div class="container-fluid text-center text-white" id="intro-text">
      <h1>My name is Luan</h1>
@@ -42,9 +42,10 @@
    </div> 
   </div>
 
-   <div class="container-fluid row justify-content-center mt-5" id="portfolio">
-    <div class="card" style="width: 400px;" id="port-card">
-      <img class="card-img-bottom"  src="https://images.squarespace-cdn.com/content/v1/59231d7f197aea6aa1c6bf20/1498803102793-3A7PPQ05PU6VXT9QGD74/Morgan-Logo-gold2.png" alt="Card Image" style="height: 250px;width: 300px;">
+    <!--Portfolio-->
+   <div class="container-fluid row justify-content-center mt-5" style="margin-bottom:50px" id="portfolio">
+    <div class="card justify-content-center" style="width: 400px;" id="port-card">
+      <img class="container"  src="https://images.squarespace-cdn.com/content/v1/59231d7f197aea6aa1c6bf20/1498803102793-3A7PPQ05PU6VXT9QGD74/Morgan-Logo-gold2.png" alt="Card Image" style="height: 250px;width: 300px;">
        <div class="card-body">
         <h4 class="card-title">Marcana Guitars</h4>
         <p class="card-text">Example of a project landing page</p>
@@ -71,32 +72,40 @@
     </div>
 
     <div class="card" style="width: 400px;" id="port-card">
-      <img class="card-img-bottom" src="./img/git.png" alt="Card Image" style="height: 200px;width: 200px;">
+        <div class="card-img-bottom justify-content-center">
+            <div class="container-fluid justify-content-center mt-3" id="contact">
+                <a href="https://github.com/LTaute" target="_blank" class="github"><li class="fa-brands fa-github"></li></a>
+            </div>
+        </div>
+  
       <div class="card-body">
         <h4 class="card-title">Neumorphism effect on social media buttons</h4>
         <p class="card-text">CSS animation and effects on Social media buttons</p>
-        <a href="https://codepen.io/ltaute/full/YzapByv" target="_blank" class="btn">Open Project</a>
+        <a href="https://codepen.io/ltaute/full/YzapByv" target="_blank" class="btn mt-5">Open Project</a>
       </div>
     </div>
 
    </div> 
-  
-   <div class="container-fluid mt-3 pt-5">
-     <h1 class="container-fluid text-center">Luan Ivan Taute Resume() </h1>
-     
-     <p class="container-fluid mt-3 text-center">
-      I've enjoyed a 5-year career as a scenic artist. Painting theatre sets and building props for a variety of film, TV, and theatre shows. <br>
-      Always had an interest in how a business works, marketing, management, client relationships, logistics, finances, and technology.<br><br>
 
-      I did a career change from the arts industry to construction to explore more interests and gain more experience in Project management.<br><br>
+  <!--More About me section-->
+   <div class="container-fluid mt-3 pt-5 text-white bg-dark" id="aboutme">
+       <div class="container-fluid" style="padding-bottom:35px">
+           <h1 class="text-center">More About me: </h1>
 
-      I have a big interest in Blockchain Development and Software Development and would love to gain experience and follow a career path in the Tech industry.
-     </p>
+           <p class="container-fluid mt-3 text-center">
+               I've enjoyed a 5-year career as a scenic artist. Painting theatre sets and building props for a variety of film, TV, and theatre shows. <br>
+               Always had an interest in how a business works, marketing, management, client relationships, logistics, finances, and technology.<br><br>
+
+               I did a career change from the arts industry to construction to explore more interests and gain more experience in Project management.<br><br>
+
+               I have a big interest in Blockchain Development and Software Development and would love to gain experience and follow a career path in the Tech industry.
+           </p>
+       </div>
    </div> <br>
 
    <div class="container mt-5" id="resume">
     <div class="row">
-      <div class="card col-sm-4 p-3 text-dark">
+      <div class="card col-sm-4 p-3 text-dark" style="max-width:400px">
         <h1 class="container text-center">Contact details</h1>
         <ul class="list">
           <li><a href="https://linkedin.com/in/ltaute" target="_blank">LinkedIn</a></li>
@@ -104,24 +113,28 @@
           <li><a href="https://www.freecodecamp.org/LITaute" target="_blank">FreeCodeCamp</a></li>
         </ul>
 
-        <h2 class="container text-center">Web Development Languages</h2>
+        <h2 class="container text-center">Web Development</h2>
         <ul class="list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Bootstrap 5</li>
-          <li>Javascript {beginner}</li>
-          <li>React {beginner}</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap 5</li>
+            <li>Javascript {beginner}</li>
+            <li>.Net Blazor</li>
+            <li>Angular</li>
+            <li>C#</li>
         </ul>
 
         <h2 class="container text-center">Applications</h2>
         <ul class="list">
-          <li>Microsoft Word</li>
-          <li>Microsoft Excel</li>
-          <li>Microsoft Powerpoint</li>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Lightroom</li>
-          <li>Adobe Illustrator</li>
-          <li>Visual Studio Code</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+            <li>Microsoft Powerpoint</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Lightroom</li>
+            <li>Adobe Illustrator</li>
+            <li>Figma</li>
+            <li>Visual Studio</li>
+            <li>Microsoft Sql SSMS</li>
         </ul>
 
         <h2 class="container text-center">Professional Skills</h2>
@@ -149,74 +162,91 @@
         </ul>
       </div>
 
-      <div class="card col-sm-8 p-3 text-dark" style="width: auto;">
-        <h1 class="container text-center">Career Progression</h1>
-        <h1>Alsnest Developments</h1>
-        <h2>Project Manager, June 2020 - Present</h2>
-        <ul class="list">
-          <li>Preparing property for a new residential development</li>
-          <li>Managing new construction projects</li>
-          <li>Commercial building and property maintenance</li>
-          <li>Projects quality control</li>
-          <li>Evaluating projects performance</li> 
-        </ul>
+        <!--ALSNEST DEVELOPMENTS-->
+      <div class="card col-sm-8 p-3 text-dark" style="max-width:850px;">
+          <div class="container">
+              <h1 class="container text-center">Career Progression</h1>
+              <h1>Alsnest Developments</h1>
+              <h2>Project Manager, June 2020 - March 2023</h2>
+              <ul class="list">
+                  <li>
+                      Residential development, from property preparation to development planning and execution.
+                  </li>
+                  <li>
+                      Comprehensive facility management for residential property portfolio and 12 concurrent  
+                      commercial projects, including managing 5 construction teams at various project locations.
+                  </li>
+                  <li>
+                      Bespoke corporate renovation projects: customer needs analysis,
+                      project planning, execution, and problem-solving for complex commercial property needs.
+                  </li>
+                  <li>Customer relationship and account management for all active projects.</li>
+              </ul>
 
-        <h1>The Proper Prop Shop</h1>
-        <h2>Director, Co-founder, January 2018 - November 2021</h2>
-        <ul class="list">
-          <li>Business Start-up administration</li>
-          <li>Sourcing of new Props and designs</li>
-          <li>Grew the inventory from 24 pieces to well over 600</li>
-          <li>Developed marketing plan, product catalog, and rental system</li>
-          <li>Managed workshop, inventory, logistics</li>
-          <li>Project and setup management</li> 
-        </ul>
+              <!--THE PROPER PROP SHOP-->
+              <h1>The Proper Prop Shop</h1>
+              <h2>Director, Co-founder, January 2018 - November 2021</h2>
+              <ul class="list">
+                  <li>Launched a bootstrap start-up, from concept and business planning, to implementation and business development.</li>
+                  <li>
+                      Planning and implementation of business, operations, and project processes.
+                  </li>
+                  <li>Developed product catalog for props rental and custom commissions.</li>
+                  <li>Grew props inventory from 24 items to well over 600 items.</li>
+                  <li>Sourcing new props and creating complex designs according to prop purpose.</li>
+                  <li>Managed the workshop, our inventory, and inbound/outbound logistics.</li>
+                  <li>Lead project manager and Set Up Team management for over 100+ shows.</li>
+                  <li>Customer relationship and key stakeholder management for all active projects.</li>
+              </ul>
 
-        <h1>Lauté Holdings</h1>
-        <h2>Managing Director, July 2017 - May 2020</h2>
-        <ul class="list">
-          <li>Photographer and editor</li>
-          <li>Digital Marketing</li>
-          <li>Outsourced Web Development, Branding, and web copy </li>
-          <li>Project/Props management for a variety of theatre shows locally and one international</li> 
-        </ul>
+              <!--LAUTE HOLDINGS-->
+              <h1>Lauté Holdings</h1>
+              <h2>Managing Director, July 2017 - May 2020</h2>
+              <ul class="list">
+                  <li>Lead photographer and editor.</li>
+                  <li>Managed digital marketing campaigns for 7 start-up clients.</li>
+                  <li>Outsourced and managed Web Development, branding, and web copy for 5 start-ups. </li>
+                  <li>Props management for a variety of film and theatre shows locally and one international production.</li>
+              </ul>
+                
+              <!--SCENE VISUAL PRODUCTIONS-->
+              <h1>Scene Visual Productions</h1>
+              <h2>Artist, Workshop Manager, May 2012 - November 2017</h2>
+              <ul class="list">
+                  <li>Scenic and Props Artist for a variety of national theatre shows and films.</li>
+                  <li>Props master on various South African theatre shows performed nationally.</li>
+                  <li>Workshop and artist management and reporting directly to the CEO of the company.</li>
+                  <li>Assistant Project manager pre-live and post-production.</li>
+              </ul>
 
-        <h1>Scene Visual Productions</h1>
-        <h2>Artist, Workshop Manager, May 2012 - November 2017</h2>
-        <ul class="list">
-          <li>Scenic and Props Artist</li>
-          <li>Assistant project manager pre and post production</li>
-          <li>Props Master on a variety of South African theatre shows</li>
-          <li>Workshop manager</li>
-        </ul>
+              <!--TUT-->
+              <h1>Tshwane University Of Technology</h1>
+              <h2>Student Assistant, September 2012 - August 2013</h2>
+              <ul class="list">
+                  <li>Assisting Lecturer with classroom and project administration.</li>
+                  <li>Assisting students during class projects and assignments.</li>
+                  <li>Responsible for workshop stock take and inventory management.</li>
+                  <li>Keeping storeroom and workshop clean.</li>
+              </ul>
+              <hr>
 
-        <h1>Tshwane University Of Technology</h1>
-        <h2>Student Assistant, September 2012 - August 2013</h2>
-        <ul class="list">
-          <li>Assisting Lecturer with administration</li>
-          <li>Assisting students during projects</li>
-          <li>Stock take and inventory management</li>
-          <li>Workshop assistant manager</li> 
-        </ul>
-        <hr>
+              <h1 id="education">Education</h1>
 
-        <h1 id="education">Education</h1>
+              <div class="mt-3">
+                  <h2>Tshwane University Of Technology</h2>
+                  <h4>National Diploma in Performing Arts Technology</h4>
+                  <ul>
+                      <li>
+                          Graduated in Props, and Scenic artistry and design.
+                      </li>
+                  </ul>
+              </div>
 
-        <div class="mt-3">
-          <h2>Tshwane University Of Technology</h2>
-          <h4>National Diploma - Performing Arts Technology</h4>
-          <ul>
-            <li>
-              Scenic art and props design/manufacturing
-            </li>
-          </ul>
-        </div>
-
-        <div class="mt-3">
-          <h2>Wonderboom Highschool</h2>
-          <h4>National Senior Certificate</h4>
-        </div>
-
+              <div class="mt-3">
+                  <h2>Wonderboom Highschool</h2>
+                  <h4>National Senior Certificate</h4>
+              </div>
+          </div>
       </div>
     </div>
    </div>
