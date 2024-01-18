@@ -23,8 +23,29 @@ body{
     font-size: 5vw;
 }
 
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
+#stars-video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+}
+
 #intro-text{
     padding-top: 23em;
+    position: absolute;
 }
 
 .web-color {
@@ -50,6 +71,7 @@ body{
 
 #aboutme {
     max-height: 500px;
+    position: relative;
 }
 
 @keyframes web{
