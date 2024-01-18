@@ -16,11 +16,11 @@ body{
 }
 
 #top-banner h1{
- font-size: 7vw;
+ font-size: 4vw;
 }
 
 #top-banner p{
-    font-size: 7vw;
+    font-size: 5vw;
 }
 
 #intro-text{
@@ -31,6 +31,10 @@ body{
     animation-name: web;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+.projects{
+    font-size: 3vw;
 }
 
 .card{
